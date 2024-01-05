@@ -1,0 +1,8 @@
+<assembly>
+	<id>bin</id>
+	<fileSets>
+		<fileSet>
+			<directory>target</directory>
+		</fileSet>
+	</fileSets>
+</assembly>
