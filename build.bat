@@ -1,0 +1,2 @@
+call mvn install:install-file -Dfile=.\lib\FitReader-2.4.jar -DgroupId=net.studioblueplanet -DartifactId=FitReader -Dversion=2.4 -Dpackaging=jar
+call mvn -X -e -P  Windows_x64 clean compile assembly:single package help:active-profiles
